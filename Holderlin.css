@@ -1,0 +1,341 @@
+/*---------- body ----------*/
+
+html, body {
+    height:100%;
+    margin:0;
+}
+
+h1, h2, header ul li {
+    font-family: 'Arial Narrow';
+}
+/* ------------ contacts --------*/
+.contacts {
+    margin:5px;
+    height:5%;
+    margin:0;
+}
+.contacts ul{
+    display:inline-block;
+}
+
+.contacts ul li{
+    display:inline;
+}
+.socialnetworks  {
+    float: left;
+}
+.info {
+    float:right; 
+}
+
+ul.info li > img {
+    margin-right:5px;
+    margin-left:10px;
+}
+
+/*------- header -------- */
+header {
+    background:linear-gradient(#edebec, #cecece);
+    clear:both;
+    height:8%;
+    margin-bottom:5px;
+
+}
+header nav {
+    display:inline-block;
+    height:100%;
+    vertical-align: top;
+    width:60%;
+}
+header ul {
+    display:inline-block;
+    height:100%;
+    margin:0;
+    width:100%;
+   
+}
+header ul li {
+    display:inline-block;
+    padding:20px;
+    height:calc(100% - 40px);
+    border-right:2px solid #cecece;
+    width:calc(100%/10);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+header ul li span {
+    
+}
+header ul li:hover {
+    background:#ea4e1b;
+    color:white;
+}
+
+
+
+header > img {
+    vertical-align: middle;
+}
+
+/*------- main ---------*/
+
+main {
+    height:auto;
+}
+
+/*------- team -------- */
+.team {
+    background: #e3e3e3;
+    padding:30px;
+}
+
+.team > p {
+    color:#ea4e1b;
+    font-weight: 600;
+}
+
+.team-people {
+    text-align: center;	
+}
+.team figure {
+    width: calc((100% - 30px) / 6);
+    margin-left: 15px;
+    position: relative;
+    display:inline-block;
+    vertical-align: top;
+  }
+  
+.team figure > figcaption > p:first-child {
+    color:#ea4e1b;
+    font-weight: 600;
+    font-family: 'Arial Narrow';
+}
+.team img {
+    width: 100%;
+
+  }
+  
+.team figcaption:first-of-type {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+.team figcaption {
+    text-align: left;
+}
+.team figure:hover figcaption:first-of-type {
+    background: rgba(0, 0, 0, 0.3); 
+  }
+
+  /*------- welcome -------- */
+.welcome {
+    text-align:center;
+}
+.welcome figure{
+	vertical-align:top;
+    width: calc((100% - 30px) / 8);
+    display:inline-block;
+    text-align:center;
+}
+
+.welcome figure figcaption {
+    color:#333;
+}
+.welcome figure figcaption p:first-child {
+    font-weight:bold;
+    color:#ea4e1b;
+}
+
+.welcome img {
+    display:inline-block;
+    width:20%;
+	margin-top:calc((100px - 20%)/2);
+}
+
+.welcome div.wrapper {
+    width:100px;
+    height:100px;
+    display:inline-block;
+    background:#e3e3e3;
+    border-radius:50%;
+}
+
+/*---------- offer -----------*/
+
+.offer {
+    height: 200px;
+    background: #ea4e1b;
+    padding-left:10%;
+    padding-top:25px;
+    color:white;
+}
+
+.offer div{
+    display:inline-block;
+}
+
+.offer div:first-child{
+    width:60%;
+}
+
+.offer div:first-child p {
+
+}
+
+.offer div:last-child{
+    margin:60px;
+    padding:20px 40px;
+    Color:white;
+    border:1px solid white;
+}
+
+
+/*-----------whatwedo-------------*/
+.whatwedo {
+    padding:50px;
+    text-align: center;
+}
+.whatwedo div {
+    display:inline-block;
+    width:20%;
+    vertical-align: top;
+    
+}
+
+.whatwedo h2 {
+   color:#ea4e1b;
+}
+.whatwedo div:first-of-type{
+    text-align:left;
+}
+
+.whatwedo div ul {
+    margin:0;
+    text-align:left;
+    list-style-image: url('Holderlin/img/arrow.jpg');
+}
+.whatwedo div ul li {
+    padding:5px;
+    border-bottom:1px solid gray;
+}
+
+.whatwedo div ul li:last-child {
+    border-bottom:none;
+}
+
+
+/*--------------- events -----------------*/
+
+.events h2 {
+    text-align: center;
+}
+.events > p {
+    text-align: center;
+}
+.events figure {
+    width:calc(100%/4);
+    display:inline-block;
+    vertical-align: top;
+}
+
+.events > figure > figcaption > p > a {
+    color:#ea4e1b;
+}
+.events figure img {
+    width:100%;
+}
+
+/*------------ programs --------------*/
+.programs {
+    text-align: center;
+    background: #efefef;
+}
+
+.programs ul {
+    display:inline-block;
+    width: calc(100%/4);
+    vertical-align: top;
+    text-align: left;
+}
+#upgrade {
+    list-style-image: url('Holderlin/img/comp.jpg');
+}
+
+#business {
+    list-style-image: url('Holderlin/img/fly.jpg') ;
+}
+
+#education {
+    list-style-image: url('Holderlin/img/magister.jpg');
+}
+
+#bestresult {
+    list-style-image: url('Holderlin/img/ok.jpg');
+}
+
+#business-creation {
+    list-style-image: url('Holderlin/img/cup.jpg');
+}
+
+#customer  {
+    list-style-image: url('Holderlin/img/telphone.jpg');
+}
+
+
+/*------------ projects ------------*/
+
+.projects {
+    text-align: center;
+}
+.projects figure {
+    display: inline-block;
+    width: calc(100%/4);
+    margin:5px;
+}
+
+.projects img {
+    width:100%;
+}
+
+#viewall {
+    width:100px;
+    margin:50px auto;
+    padding: 20px 30px;
+    border:2px solid #ea4e1b;
+    background: #ea4e1b;
+    color:white;
+}
+
+/*---------- partners -----------*/
+
+.partners {
+    height:20%;
+    background:#e3e3e3;
+    margin:0;
+}
+
+.partners ul {
+    text-align: center;
+}
+.partners ul li {
+    display: inline-block;
+    padding: 30px;
+}
+
+/*------------- footer ----------*/
+
+footer {
+    height:15%;
+    background: #333;
+    margin:0;
+    padding: 20px 30px;
+}
+
+footer p {
+    margin:0;
+}
